@@ -6,6 +6,13 @@ Enables JIT in apps for AltServer Version 1.7.1 (81) and fixes errors with conne
 <img src="https://github.com/user-attachments/assets/d9a30a97-56e2-4385-a1a6-e0b10ebb872f" width="45%">
 <img src="https://github.com/user-attachments/assets/4a866f1b-67e4-4d0b-bef2-adbdde992337" width="45%">
 
+## Fixed Bugs (for me)
+
+- [x] The process 'python3' failed with code 1. stream.tell() failed
+- [x] The process 'python3' returned unexpected output. KeyError: EnumIntegerString.new(3, 'PUBLIC_KEY')
+- [x] The process 'python3' returned unexpected output. Error: No such command 'start-quic-tunnel'
+- [x] The process 'altjit' failed with code 1. Could not connect to device (device).
+
 ## How to Run
 
 You can run the `hcJIT` script by either:
@@ -38,7 +45,7 @@ Below are some screenshots demonstrating the usage and features of hcJIT:
   <img src="https://github.com/user-attachments/assets/53081217-1c2c-4042-b3b5-5e2908138b8d" alt="Tunnel Configuration Screenshot 2" width="45%">
 </p>
 
-### Final Steps
+### Result
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4a866f1b-67e4-4d0b-bef2-adbdde992337" alt="Final Steps Screenshot" width="45%">
 </p>
